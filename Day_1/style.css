@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+}
+tr {
+    background-color: red;
+    color: black;
+}
+table {
+    border-radius: 12px;
+    border-color: gold;
+    border-style: groove;
+    border-width: 5px;
+}
