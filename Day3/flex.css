@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fcontainer {
+    font-family: "Times New Roman";
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    border: 2px solid green;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fitem {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 15px;
+    border-color: green;
+    border-width: 10px;
+    border-style: double;
+    padding: 10px;
+    margin: 20px;
+}
+
+.item1 {
+    order: 2;
+    flex-grow: 2;
+}
+
+.item4 {
+    order: -1;
+    flex-grow: 3;
+}
+
+.item2 {
+    flex-shrink: 2;
+}

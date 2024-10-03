@@ -1,0 +1,27 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#myid1 {
+    background-color: aqua;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+#myid2 {
+    background-color: yellow;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+.myclass {
+    color: blueviolet;
+}
+*/
+
+div ~ p{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
