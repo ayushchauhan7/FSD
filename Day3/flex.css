@@ -26,7 +26,7 @@
     padding: 10px;
     margin: 20px;
 }
-
+/*
 .item1 {
     order: 2;
     flex-grow: 2;
@@ -38,5 +38,11 @@
 }
 
 .item2 {
-    flex-shrink: 2;
+}
+*/
+@media only screen and (max-width: 600px) {
+    .fcontainer {
+        flex-direction: column;
+        text-align: center;
+    }
 }

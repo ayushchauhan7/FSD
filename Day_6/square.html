@@ -1,0 +1,37 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Box</title>
+  <style>
+    #square-box {
+      width: 200px;
+      height: 200px;
+      background-color: rgb();
+      transition: background-color 0.3s ease;
+      margin: 50px auto;
+    }
+
+    #square-box:hover {
+      background-color: red;
+    }
+
+  </style>
+</head>
+<body>
+<div id="square-box"></div>
+<script>
+
+  const squareBox = document.getElementById('square-box');
+
+  squareBox.addEventListener('mouseover', function() {
+    squareBox.style.backgroundColor = 'red';
+  });
+
+  squareBox.addEventListener('mouseout', function() {
+    squareBox.style.backgroundColor = 'blue';
+  });
+</script>
+</body>
+</html>
