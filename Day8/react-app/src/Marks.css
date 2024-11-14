@@ -1,0 +1,22 @@
+#res {
+    background-color: black;
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: Algerian;
+    border: 100px solid greenyellow;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: aqua;
+    color: wheat;
+    font-size: 20px;
+    font-family: Algerian;
+}
+
+h2 {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Algerian;
+}
