@@ -1,7 +1,10 @@
 import React from "react";
+import CounterApp from "./components/CounterApp.jsx";
 
 const App = () => {
-  return <h1>App</h1>;
-};
+  return  (
+      <div><CounterApp /></div>
+);
+      };
 
 export default App;
