@@ -1,0 +1,22 @@
+.disp {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 20px;
+    gap: 10px;
+}
+
+.header {
+    background-color: chartreuse;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    box-shadow: 10px 10px 10px;
+}
+
+.btn {
+    background-color: coral;
+    box-shadow: 5px 5px 5px;
+}
