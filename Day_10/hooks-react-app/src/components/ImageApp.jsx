@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pic from "../image/adi.jpg";
+import pic from "../images/image.jfif";
 import "./ImageApp.css";
 
 const ImageApp = () => {
@@ -12,7 +12,7 @@ const ImageApp = () => {
             <div className='img'>
                 <img
                     src={pic}
-                    alt="Dynamic"
+                    alt="Example"
                     style={{
                         width: `${width}px`,
                         height: `${height}px`,
@@ -25,8 +25,8 @@ const ImageApp = () => {
                 <button onClick={() => setWidth(width - 10)}>Decrease Width</button>
                 <button onClick={() => setHeight(height + 10)}>Increase Height</button>
                 <button onClick={() => setHeight(height - 10)}>Decrease Height</button>
-                <button onClick={() => setRotation(rotation + 15)}>Rotate Clockwise</button>
-                <button onClick={() => setRotation(rotation - 15)}>Rotate Anti Clockwise</button>
+                <button onClick={() => setRotation(rotation + 10)}>Rotate Clockwise</button>
+                <button onClick={() => setRotation(rotation - 10)}>Rotate Anti Clockwise</button>
             </div>
         </div>
     );
