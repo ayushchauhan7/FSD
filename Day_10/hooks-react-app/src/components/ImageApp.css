@@ -1,0 +1,12 @@
+import React from "react";
+import pic from "../images/pic.jpg";
+
+const ImageApp = () => {
+  return
+    <div>
+ImageApp
+    </div>;
+
+};
+
+export default ImageApp;
