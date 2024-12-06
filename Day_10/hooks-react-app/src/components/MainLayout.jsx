@@ -1,7 +1,9 @@
-import React from "react";
-import pic from "../"
+import React from 'react'
+
 const MainLayout = () => {
     return (
-            <div>React Hooks</div>;
-};
+        <div>MainLayout</div>
+    )
+}
+
 export default MainLayout;

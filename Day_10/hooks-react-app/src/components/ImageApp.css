@@ -1,12 +1,19 @@
-import React from "react";
-import pic from "../images/pic.jpg";
+.disp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
-const ImageApp = () => {
-  return
-    <div>
-ImageApp
-    </div>;
+.img {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
 
-};
-
-export default ImageApp;
+.panel {
+    display: flex;
+    gap: 10px;
+}
